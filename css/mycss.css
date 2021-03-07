@@ -437,14 +437,19 @@ img.svg{
 	overflow: hidden;
 }
 .waxon_tm_hero .background .rightpart .image{
-	position: absolute;;
-	top: -20px;
-	bottom: -20px;
-	left: -20px;
-	right: -20px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -190px;
+    right: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-width: 640px) {
+    .waxon_tm_hero .background .rightpart .image{
+        left: -20px;
+    }
 }
 .waxon_tm_hero .background .myOverlay{
 	position:absolute;
